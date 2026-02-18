@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SDL WASM</title>
+</head>
+<body>
+
+    <canvas id="canvas"></canvas>
+
+    <script>
+        var Module = {};
+        window.addEventListener("load", function() {
+            Module.canvas = document.getElementById("canvas");
+        });
+    </script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
